@@ -1,22 +1,26 @@
+## Installing sqldf package
+install.packages("sqldf")
+library(sqldf)
+
 ## Downloading data
-if(!file.exists("./C3_Project/Data/UCI HAR Dataset/features.txt"))
+if(!file.exists("./C3_Project/UCI HAR Dataset/features.txt"))
 { 
-dir.create("./C3_Project/Data")
+dir.create("C3_Project")
 fileurl<- "http://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-download.file(fileurl, destfile="./C3_Project/Data/raw.zip")
-unzip("./C3_Project/Data/raw.zip",exdir="./C3_Project/Data")
+download.file(fileurl, destfile="./C3_Project/raw.zip")
+unzip("./C3_Project/raw.zip",exdir="./C3_Project")
 }
 
 ## Reading data
-features <- read.table ("./C3_Project/Data/UCI HAR Dataset/features.txt")
-activites<- read.table ("./C3_Project/Data/UCI HAR Dataset/activity_labels.txt")
-test_subjects <- read.table("./C3_Project/Data/UCI HAR Dataset/Test/subject_test.txt")
-test_data <- read.table("./C3_Project/Data/UCI HAR Dataset/Test/X_test.txt")
-test_labels <- read.table("./C3_Project/Data/UCI HAR Dataset/Test/Y_test.txt")
+features <- read.table ("./C3_Project/UCI HAR Dataset/features.txt")
+activites<- read.table ("./C3_Project/UCI HAR Dataset/activity_labels.txt")
+test_subjects <- read.table("./C3_Project/UCI HAR Dataset/Test/subject_test.txt")
+test_data <- read.table("./C3_Project/UCI HAR Dataset/Test/X_test.txt")
+test_labels <- read.table("./C3_Project/UCI HAR Dataset/Test/Y_test.txt")
 
-train_subjects <- read.table("./C3_Project/Data/UCI HAR Dataset/train/subject_train.txt")
-train_data <- read.table("./C3_Project/Data/UCI HAR Dataset/train/X_train.txt")
-train_labels <- read.table("./C3_Project/Data/UCI HAR Dataset/train/Y_train.txt")
+train_subjects <- read.table("./C3_Project/UCI HAR Dataset/train/subject_train.txt")
+train_data <- read.table("./C3_Project/UCI HAR Dataset/train/X_train.txt")
+train_labels <- read.table("./C3_Project/UCI HAR Dataset/train/Y_train.txt")
 
 
 ## Adding ID column
@@ -100,10 +104,7 @@ Final_Data_Frame <- mean_std_selection %>%
     summarise_each(funs(mean))
 
 ## Writting result into a txt file
-write.table(Final_Data_Frame,"./C3_Project/Data/Final_Data.txt",row.name=FALSE)
+write.table(Final_Data_Frame,"./C3_Project/Final_Data.txt",row.name=FALSE)
 
 ## Reading final data 
-final_data_frame <- read.table("./C3_Project/Data/Final_Data.txt",header=TRUE)
-
-
-
+final_data_frame <- read.table("./C3_Project/Final_Data.txt",header=TRUE)
