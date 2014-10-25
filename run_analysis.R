@@ -1,9 +1,10 @@
  ## Installing sqldf package if not already available
-list.of.packages <- c("sqldf")
+list.of.packages <- c("sqldf","dplyr")
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
 ## Starting package (sqldf) 
 library(sqldf)
+library(dplyr)
 
 ## Downloading data
 if(!file.exists("./C3_Project/UCI HAR Dataset/features.txt"))
@@ -111,4 +112,4 @@ write.table(Final_Data_Frame,"./C3_Project/Final_Data.txt",row.name=FALSE)
 
 ## Reading final data 
 final_data_frame <- read.table("./C3_Project/Final_Data.txt",header=TRUE)
-print(final_data_frame)
+
