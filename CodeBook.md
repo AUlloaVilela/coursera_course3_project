@@ -23,6 +23,7 @@ The activity IDs have been later replaced by more descriptive labels (WALKING, W
 After that the original names of the 86 feature columns have been renamed into more descriptive ones.
 
 Original Names:
+
 1	tBodyAcc-mean()-X
 2	tBodyGyro-mean()-X
 3	tBodyGyro-mean()-Y
@@ -110,10 +111,99 @@ Original Names:
 85	tBodyAccJerk-std()-Y
 86	tBodyAccJerk-std()-Z
 
+Final Names:
+
+Time.Body.Accelerometer.mean...X
+Time.Body.Gyroscope.mean...X
+Time.Body.Gyroscope.mean...Y
+Time.Body.Gyroscope.mean...Z
+Time.Body.Gyroscope.Standard.Deviation...X
+Time.Body.Gyroscope.Standard.Deviation...Y
+Time.Body.Gyroscope.Standard.Deviation...Z
+Time.Body.Gyroscope.Jerk.mean...X
+Time.Body.Gyroscope.Jerk.mean...Y
+Time.Body.Gyroscope.Jerk.mean...Z
+Time.Body.Gyroscope.Jerk.Standard.Deviation...X
+Time.Body.Gyroscope.Jerk.Standard.Deviation...Y
+Time.Body.Gyroscope.Jerk.Standard.Deviation...Z
+Time.Body.Accelerometer.mean...Y
+Time.Body.Accelerometer.Magnitude.mean..
+Time.Body.Accelerometer.Magnitude.Standard.Deviation..
+Time.Gravity.Accelerometer.Magnitude.mean..
+Time.Gravity.Accelerometer.Magnitude.Standard.Deviation..
+Time.Body.Accelerometer.Jerk.Magnitude.mean..
+Time.Body.Accelerometer.Jerk.Magnitude.Standard.Deviation..
+Time.Body.Gyroscope.Magnitude.mean..
+Time.Body.Gyroscope.Magnitude.Standard.Deviation..
+Time.Body.Gyroscope.Jerk.Magnitude.mean..
+Time.Body.Gyroscope.Jerk.Magnitude.Standard.Deviation..
+Frequency.Body.Accelerometer.mean...X
+Frequency.Body.Accelerometer.mean...Y
+Frequency.Body.Accelerometer.mean...Z
+Frequency.Body.Accelerometer.Standard.Deviation...X
+Frequency.Body.Accelerometer.Standard.Deviation...Y
+Frequency.Body.Accelerometer.Standard.Deviation...Z
+Frequency.Body.Accelerometer.meanFreq...X
+Frequency.Body.Accelerometer.meanFreq...Y
+Frequency.Body.Accelerometer.meanFreq...Z
+Time.Body.Accelerometer.mean...Z
+Frequency.Body.Accelerometer.Jerk.mean...X
+Frequency.Body.Accelerometer.Jerk.mean...Y
+Frequency.Body.Accelerometer.Jerk.mean...Z
+Frequency.Body.Accelerometer.Jerk.Standard.Deviation...X
+Frequency.Body.Accelerometer.Jerk.Standard.Deviation...Y
+Frequency.Body.Accelerometer.Jerk.Standard.Deviation...Z
+Frequency.Body.Accelerometer.Jerk.meanFreq...X
+Frequency.Body.Accelerometer.Jerk.meanFreq...Y
+Frequency.Body.Accelerometer.Jerk.meanFreq...Z
+Time.Body.Accelerometer.Standard.Deviation...X
+Time.Gravity.Accelerometer.mean...X
+Time.Gravity.Accelerometer.mean...Y
+Frequency.Body.Gyroscope.mean...X
+Frequency.Body.Gyroscope.mean...Y
+Frequency.Body.Gyroscope.mean...Z
+Frequency.Body.Gyroscope.Standard.Deviation...X
+Frequency.Body.Gyroscope.Standard.Deviation...Y
+Frequency.Body.Gyroscope.Standard.Deviation...Z
+Time.Gravity.Accelerometer.mean...Z
+Time.Gravity.Accelerometer.Standard.Deviation...X
+Time.Gravity.Accelerometer.Standard.Deviation...Y
+Frequency.Body.Gyroscope.meanFreq...X
+Frequency.Body.Gyroscope.meanFreq...Y
+Frequency.Body.Gyroscope.meanFreq...Z
+Time.Gravity.Accelerometer.Standard.Deviation...Z
+Time.Body.Accelerometer.Standard.Deviation...Y
+Frequency.Body.Accelerometer.Magnitude.mean..
+Frequency.Body.Accelerometer.Magnitude.Standard.Deviation..
+Frequency.Body.Accelerometer.Magnitude.meanFreq..
+Frequency.BodyBody.Accelerometer.Jerk.Magnitude.mean..
+Frequency.BodyBody.Accelerometer.Jerk.Magnitude.Standard.Deviation..
+Frequency.BodyBody.Accelerometer.Jerk.Magnitude.meanFreq..
+Frequency.BodyBody.Gyroscope.Magnitude.mean..
+Frequency.BodyBody.Gyroscope.Magnitude.Standard.Deviation..
+Frequency.BodyBody.Gyroscope.Magnitude.meanFreq..
+Frequency.BodyBody.Gyroscope.Jerk.Magnitude.mean..
+Frequency.BodyBody.Gyroscope.Jerk.Magnitude.Standard.Deviation..
+Frequency.BodyBody.Gyroscope.Jerk.Magnitude.meanFreq..
+angle.Time.Body.Accelerometer.Mean.gravity.
+angle.Time.Body.Accelerometer.Jerk.Mean..gravityMean.
+angle.Time.Body.Gyroscope.Mean.gravityMean.
+angle.Time.Body.Gyroscope.Jerk.Mean.gravityMean.
+angle.X.gravity.Mean.
+angle.Y.gravity.Mean.
+angle.Z.gravity.Mean.
+Time.Body.Accelerometer.Standard.Deviation...Z
+Time.Body.Accelerometer.Jerk.mean...X
+Time.Body.Accelerometer.Jerk.mean...Y
+Time.Body.Accelerometer.Jerk.mean...Z
+Time.Body.Accelerometer.Jerk.Standard.Deviation...X
+Time.Body.Accelerometer.Jerk.Standard.Deviation...Y
+Time.Body.Accelerometer.Jerk.Standard.Deviation...Z
+
+
 
 
 The dataset includes the following files:
-=========================================
 - 'README.txt' -> 
 - 'features_info.txt': Shows information about the variables used on the feature vector.
 - 'features.txt': List of all features.
