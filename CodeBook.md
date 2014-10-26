@@ -113,95 +113,94 @@ Original Names:
 
 Final Names:
 
-Time.Body.Accelerometer.mean...X
-Time.Body.Gyroscope.mean...X
-Time.Body.Gyroscope.mean...Y
-Time.Body.Gyroscope.mean...Z
-Time.Body.Gyroscope.Standard.Deviation...X
-Time.Body.Gyroscope.Standard.Deviation...Y
-Time.Body.Gyroscope.Standard.Deviation...Z
-Time.Body.Gyroscope.Jerk.mean...X
-Time.Body.Gyroscope.Jerk.mean...Y
-Time.Body.Gyroscope.Jerk.mean...Z
-Time.Body.Gyroscope.Jerk.Standard.Deviation...X
-Time.Body.Gyroscope.Jerk.Standard.Deviation...Y
-Time.Body.Gyroscope.Jerk.Standard.Deviation...Z
-Time.Body.Accelerometer.mean...Y
-Time.Body.Accelerometer.Magnitude.mean..
-Time.Body.Accelerometer.Magnitude.Standard.Deviation..
-Time.Gravity.Accelerometer.Magnitude.mean..
-Time.Gravity.Accelerometer.Magnitude.Standard.Deviation..
-Time.Body.Accelerometer.Jerk.Magnitude.mean..
-Time.Body.Accelerometer.Jerk.Magnitude.Standard.Deviation..
-Time.Body.Gyroscope.Magnitude.mean..
-Time.Body.Gyroscope.Magnitude.Standard.Deviation..
-Time.Body.Gyroscope.Jerk.Magnitude.mean..
-Time.Body.Gyroscope.Jerk.Magnitude.Standard.Deviation..
-Frequency.Body.Accelerometer.mean...X
-Frequency.Body.Accelerometer.mean...Y
-Frequency.Body.Accelerometer.mean...Z
-Frequency.Body.Accelerometer.Standard.Deviation...X
-Frequency.Body.Accelerometer.Standard.Deviation...Y
-Frequency.Body.Accelerometer.Standard.Deviation...Z
-Frequency.Body.Accelerometer.meanFreq...X
-Frequency.Body.Accelerometer.meanFreq...Y
-Frequency.Body.Accelerometer.meanFreq...Z
-Time.Body.Accelerometer.mean...Z
-Frequency.Body.Accelerometer.Jerk.mean...X
-Frequency.Body.Accelerometer.Jerk.mean...Y
-Frequency.Body.Accelerometer.Jerk.mean...Z
-Frequency.Body.Accelerometer.Jerk.Standard.Deviation...X
-Frequency.Body.Accelerometer.Jerk.Standard.Deviation...Y
-Frequency.Body.Accelerometer.Jerk.Standard.Deviation...Z
-Frequency.Body.Accelerometer.Jerk.meanFreq...X
-Frequency.Body.Accelerometer.Jerk.meanFreq...Y
-Frequency.Body.Accelerometer.Jerk.meanFreq...Z
-Time.Body.Accelerometer.Standard.Deviation...X
-Time.Gravity.Accelerometer.mean...X
-Time.Gravity.Accelerometer.mean...Y
-Frequency.Body.Gyroscope.mean...X
-Frequency.Body.Gyroscope.mean...Y
-Frequency.Body.Gyroscope.mean...Z
-Frequency.Body.Gyroscope.Standard.Deviation...X
-Frequency.Body.Gyroscope.Standard.Deviation...Y
-Frequency.Body.Gyroscope.Standard.Deviation...Z
-Time.Gravity.Accelerometer.mean...Z
-Time.Gravity.Accelerometer.Standard.Deviation...X
-Time.Gravity.Accelerometer.Standard.Deviation...Y
-Frequency.Body.Gyroscope.meanFreq...X
-Frequency.Body.Gyroscope.meanFreq...Y
-Frequency.Body.Gyroscope.meanFreq...Z
-Time.Gravity.Accelerometer.Standard.Deviation...Z
-Time.Body.Accelerometer.Standard.Deviation...Y
-Frequency.Body.Accelerometer.Magnitude.mean..
-Frequency.Body.Accelerometer.Magnitude.Standard.Deviation..
-Frequency.Body.Accelerometer.Magnitude.meanFreq..
-Frequency.BodyBody.Accelerometer.Jerk.Magnitude.mean..
-Frequency.BodyBody.Accelerometer.Jerk.Magnitude.Standard.Deviation..
-Frequency.BodyBody.Accelerometer.Jerk.Magnitude.meanFreq..
-Frequency.BodyBody.Gyroscope.Magnitude.mean..
-Frequency.BodyBody.Gyroscope.Magnitude.Standard.Deviation..
-Frequency.BodyBody.Gyroscope.Magnitude.meanFreq..
-Frequency.BodyBody.Gyroscope.Jerk.Magnitude.mean..
-Frequency.BodyBody.Gyroscope.Jerk.Magnitude.Standard.Deviation..
-Frequency.BodyBody.Gyroscope.Jerk.Magnitude.meanFreq..
-angle.Time.Body.Accelerometer.Mean.gravity.
-angle.Time.Body.Accelerometer.Jerk.Mean..gravityMean.
-angle.Time.Body.Gyroscope.Mean.gravityMean.
-angle.Time.Body.Gyroscope.Jerk.Mean.gravityMean.
-angle.X.gravity.Mean.
-angle.Y.gravity.Mean.
-angle.Z.gravity.Mean.
-Time.Body.Accelerometer.Standard.Deviation...Z
-Time.Body.Accelerometer.Jerk.mean...X
-Time.Body.Accelerometer.Jerk.mean...Y
-Time.Body.Accelerometer.Jerk.mean...Z
-Time.Body.Accelerometer.Jerk.Standard.Deviation...X
-Time.Body.Accelerometer.Jerk.Standard.Deviation...Y
-Time.Body.Accelerometer.Jerk.Standard.Deviation...Z
+1	Time.Body.Accelerometer.mean...X
+2	Time.Body.Gyroscope.mean...X
+3	Time.Body.Gyroscope.mean...Y
+4	Time.Body.Gyroscope.mean...Z
+5	Time.Body.Gyroscope.Standard.Deviation...X
+6	Time.Body.Gyroscope.Standard.Deviation...Y
+7	Time.Body.Gyroscope.Standard.Deviation...Z
+8	Time.Body.Gyroscope.Jerk.mean...X
+9	Time.Body.Gyroscope.Jerk.mean...Y
+10	Time.Body.Gyroscope.Jerk.mean...Z
+11	Time.Body.Gyroscope.Jerk.Standard.Deviation...X
+12	Time.Body.Gyroscope.Jerk.Standard.Deviation...Y
+13	Time.Body.Gyroscope.Jerk.Standard.Deviation...Z
+14	Time.Body.Accelerometer.mean...Y
+15	Time.Body.Accelerometer.Magnitude.mean..
+16	Time.Body.Accelerometer.Magnitude.Standard.Deviation..
+17	Time.Gravity.Accelerometer.Magnitude.mean..
+18	Time.Gravity.Accelerometer.Magnitude.Standard.Deviation..
+19	Time.Body.Accelerometer.Jerk.Magnitude.mean..
+20	Time.Body.Accelerometer.Jerk.Magnitude.Standard.Deviation..
+21	Time.Body.Gyroscope.Magnitude.mean..
+22	Time.Body.Gyroscope.Magnitude.Standard.Deviation..
+23	Time.Body.Gyroscope.Jerk.Magnitude.mean..
+24	Time.Body.Gyroscope.Jerk.Magnitude.Standard.Deviation..
+25	Frequency.Body.Accelerometer.mean...X
+26	Frequency.Body.Accelerometer.mean...Y
+27	Frequency.Body.Accelerometer.mean...Z
+28	Frequency.Body.Accelerometer.Standard.Deviation...X
+29	Frequency.Body.Accelerometer.Standard.Deviation...Y
+30	Frequency.Body.Accelerometer.Standard.Deviation...Z
+31	Frequency.Body.Accelerometer.meanFreq...X
+32	Frequency.Body.Accelerometer.meanFreq...Y
+33	Frequency.Body.Accelerometer.meanFreq...Z
+34	Time.Body.Accelerometer.mean...Z
+35	Frequency.Body.Accelerometer.Jerk.mean...X
+36	Frequency.Body.Accelerometer.Jerk.mean...Y
+37	Frequency.Body.Accelerometer.Jerk.mean...Z
+38	Frequency.Body.Accelerometer.Jerk.Standard.Deviation...X
+39	Frequency.Body.Accelerometer.Jerk.Standard.Deviation...Y
+40	Frequency.Body.Accelerometer.Jerk.Standard.Deviation...Z
+41	Frequency.Body.Accelerometer.Jerk.meanFreq...X
+42	Frequency.Body.Accelerometer.Jerk.meanFreq...Y
+43	Frequency.Body.Accelerometer.Jerk.meanFreq...Z
+44	Time.Body.Accelerometer.Standard.Deviation...X
+45	Time.Gravity.Accelerometer.mean...X
+46	Time.Gravity.Accelerometer.mean...Y
+47	Frequency.Body.Gyroscope.mean...X
+48	Frequency.Body.Gyroscope.mean...Y
+49	Frequency.Body.Gyroscope.mean...Z
+50	Frequency.Body.Gyroscope.Standard.Deviation...X
+51	Frequency.Body.Gyroscope.Standard.Deviation...Y
+52	Frequency.Body.Gyroscope.Standard.Deviation...Z
+53	Time.Gravity.Accelerometer.mean...Z
+54	Time.Gravity.Accelerometer.Standard.Deviation...X
+55	Time.Gravity.Accelerometer.Standard.Deviation...Y
+56	Frequency.Body.Gyroscope.meanFreq...X
+57	Frequency.Body.Gyroscope.meanFreq...Y
+58	Frequency.Body.Gyroscope.meanFreq...Z
+59	Time.Gravity.Accelerometer.Standard.Deviation...Z
+60	Time.Body.Accelerometer.Standard.Deviation...Y
+61	Frequency.Body.Accelerometer.Magnitude.mean..
+62	Frequency.Body.Accelerometer.Magnitude.Standard.Deviation..
+63	Frequency.Body.Accelerometer.Magnitude.meanFreq..
+64	Frequency.BodyBody.Accelerometer.Jerk.Magnitude.mean..
+65	Frequency.BodyBody.Accelerometer.Jerk.Magnitude.Standard.Deviation..
+66	Frequency.BodyBody.Accelerometer.Jerk.Magnitude.meanFreq..
+67	Frequency.BodyBody.Gyroscope.Magnitude.mean..
+68	Frequency.BodyBody.Gyroscope.Magnitude.Standard.Deviation..
+69	Frequency.BodyBody.Gyroscope.Magnitude.meanFreq..
+70	Frequency.BodyBody.Gyroscope.Jerk.Magnitude.mean..
+71	Frequency.BodyBody.Gyroscope.Jerk.Magnitude.Standard.Deviation..
+72	Frequency.BodyBody.Gyroscope.Jerk.Magnitude.meanFreq..
+73	angle.Time.Body.Accelerometer.Mean.gravity.
+74	angle.Time.Body.Accelerometer.Jerk.Mean..gravityMean.
+75	angle.Time.Body.Gyroscope.Mean.gravityMean.
+76	angle.Time.Body.Gyroscope.Jerk.Mean.gravityMean.
+77	angle.X.gravity.Mean.
+78	angle.Y.gravity.Mean.
+79	angle.Z.gravity.Mean.
+80	Time.Body.Accelerometer.Standard.Deviation...Z
+81	Time.Body.Accelerometer.Jerk.mean...X
+82	Time.Body.Accelerometer.Jerk.mean...Y
+83	Time.Body.Accelerometer.Jerk.mean...Z
+84	Time.Body.Accelerometer.Jerk.Standard.Deviation...X
+85	Time.Body.Accelerometer.Jerk.Standard.Deviation...Y
+86	Time.Body.Accelerometer.Jerk.Standard.Deviation...Z
 
-
-
+As last step, an extra file has been generated (Final_Data.txt), including the averages of all these 86 values grouped by Subject and Activity (Please see readme file in this repository for instructions on how to generate this final output file).
 
 The dataset includes the following files:
 - 'README.txt' -> 
