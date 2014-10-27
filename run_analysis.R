@@ -1,8 +1,8 @@
- ## Installing sqldf package if not already available
+ ## Installing sqldf and dplyr package if not already available
 list.of.packages <- c("sqldf","dplyr")
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
-## Starting package (sqldf) 
+## Starting packages (sqldf and dplyr) 
 library(sqldf)
 library(dplyr)
 
